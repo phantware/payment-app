@@ -1,7 +1,7 @@
 module.exports = {
   googleClientID:
-    '192697751251-s4bi8j0tq8h3nrh4h490c9co8mu1r9ao.apps.googleusercontent.com',
-  googleClientSecret: 'djRjk40W4AYIQFXzVBK42UcG',
+    '192697751251-omtrpnig7oo2pra2ml08d709ufnfda4d.apps.googleusercontent.com',
+  googleClientSecret: 'PvCkTVJR4klGlfqldMEsDEYH',
   mongooseURI: 'mongodb://localhost:27017/emaily',
   cookieKey: 'babajamotokusecretcookie',
 };

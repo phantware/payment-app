@@ -20,8 +20,8 @@ passport.use(
     {
       clientID: keys.googleClientID,
       clientSecret: keys.googleClientSecret,
-      callbackURL: '/auth/google/callback',
-      proxy: true,
+      callbackURL:
+        'https://phantware-payment-app.herokuapp.com/auth/google/callback',
     },
     (accessToken, refreshToken, profile, done) => {
       // Check if user exist.
