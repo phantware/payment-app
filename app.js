@@ -29,6 +29,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 require('./routes/authRoutes')(app);
-const port = process.env.PORT || 3311;
+const PORT = process.env.PORT || 3311;
 
-app.listen(port, console.log(`server running on port: ${port}`));
+app.listen(PORT, console.log(`server running on port: ${PORT}`));
